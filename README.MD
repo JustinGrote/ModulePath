@@ -1,6 +1,6 @@
 # ModulePath
 
-This module can be used to get and set the new PSModulePath setting in PowerShell 7, which allows you to set your PSModulePath default directory. This is useful for targeting modules outside of OneDrive.
+This module can be used to get and set the new https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_powershell_config?view=powershell-7.4#psmodulepath, which allows you to set your PSModulePath default directory. This is useful for targeting modules outside of OneDrive.
 
 Please note that `PSGet/PSResourceGet` do not have native support for this new directory, and you will need to use Save-Module/Save-PSResource instead of Install-Module/Install-PSResource. As an alternative, consider [ModuleFast](https://github.com/justingrote/modulefast) which has native support and detection for powershell.config.json.
 
